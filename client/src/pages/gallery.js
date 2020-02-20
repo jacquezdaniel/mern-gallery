@@ -10,10 +10,12 @@ const gallery = () => {
         <i class="material-icons prefix">arrow_upward</i>
         <span for="icon_prefix"></span>
       </ScrollToTop>
-      <br />
-      <br />
-      <UploadForm />
-      <ImageContainer />
+      <div className="container">
+        <br />
+        <br />
+        <UploadForm />
+        <ImageContainer />
+      </div>
     </>
   );
 };
