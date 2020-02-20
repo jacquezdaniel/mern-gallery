@@ -11,7 +11,6 @@ const conn1 = mongoose.connection;
 // init gfs
 let gfs;
 conn.once("open", () => {
-  // init stream
   gfs = new mongoose.mongo.GridFSBucket(conn.db, {
     bucketName: "uploads"
   });
