@@ -1,2 +1,1 @@
-# superior-replacement
-# mern-gallery
+# Mern Stack Gallery

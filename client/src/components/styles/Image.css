@@ -1,0 +1,38 @@
+#image-container figure {
+  position: relative;
+  margin: auto;
+  text-align: left;
+}
+
+#image-container img {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 100%;
+  max-width: 80%;
+}
+
+#image-container figcaption {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+#image-container .image-options {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+#image-container small {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#image-container small.option:hover {
+  text-decoration: underline;
+}

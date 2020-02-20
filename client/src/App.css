@@ -1,0 +1,55 @@
+html,
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.content-wrapper-100vh {
+  min-height: 100vh;
+}
+
+.App {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.button {
+  padding-right: 10px;
+}
+
+nav .material-icons {
+  margin: 0 0.5rem 0 0;
+}
+
+nav #nav-menu {
+  margin-left: 1rem;
+}
+
+nav #nav-menu a:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+nav {
+  background-color: transparent !important;
+}
+.nav-wrapper a {
+  color: #aaa !important;
+}
+
+@media only screen and (max-width: 400px) {
+  nav .brand-logo {
+    margin-left: -2rem;
+  }
+}
+
+.parallax-container {
+  height: 250px;
+}
+.slider .indicators .indicator-item.active {
+  background-color: blue;
+}
+
+[data-reactroot] {
+  height: 100% !important;
+}
