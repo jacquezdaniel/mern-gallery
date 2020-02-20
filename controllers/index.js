@@ -4,7 +4,7 @@ const router = require("express").Router();
 const upload = require("./api/upload");
 
 // API Routes
-router.use("/api", email, upload);
+router.use("/api", upload);
 
 // If no API routes are hit, send the React app
 router.use((req, res) => {
