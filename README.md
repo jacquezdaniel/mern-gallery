@@ -1,5 +1,5 @@
 # Mern Stack Gallery
 
-# MongoDB Atlas
+MongoDB Atlas
 
-# https://mern-stack-gallery.herokuapp.com/
+https://mern-stack-gallery.herokuapp.com/
