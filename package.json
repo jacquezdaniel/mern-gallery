@@ -20,7 +20,7 @@
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-prettier": "^3.1.4",
     "nodemon": "^1.19.4",
-    "prettier": "^1.19.1"
+    "prettier": "^2.3.1"
   },
   "dependencies": {
     "@types/react-router": "^5.1.7",
