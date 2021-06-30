@@ -19,7 +19,7 @@
     "concurrently": "^5.1.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "nodemon": "^1.19.4",
+    "nodemon": "^2.0.8",
     "prettier": "^1.19.1"
   },
   "dependencies": {
